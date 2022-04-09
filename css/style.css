@@ -109,7 +109,7 @@ section {
 }
 
 .header .contact-adress:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 30px;
     margin-left: auto;
 }
 
@@ -128,8 +128,28 @@ section {
     color: var(--silver);
 }
 
+.header-mail-icon,
+.header-phone-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
 .logo-accent {
     color: var(--blue);
+}
+
+.header-phone,
+.header-mail {
+    fill: var(--silver);
+    vertical-align: middle;
+    display: flex;
+    align-items: center
+}
+
+.header-phone:hover,
+.header-mail:hover {
+    fill: var(--blue);
 }
 
 /* <!-- END Header markup--> */
