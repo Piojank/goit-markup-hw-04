@@ -161,7 +161,7 @@ section {
     background-image: linear-gradient(
         var(--service),
         var(--service)),
-    url("/images/agency/service_background.png");
+    url("../images/agency/service_background.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 200px 0;
