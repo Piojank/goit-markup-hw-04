@@ -158,7 +158,10 @@ section {
 
 .service {
     background-color: var(--rock);
-    background-image: url("../images/agency/service_background.png");
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url("../images/agency/service_background.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 200px 0;
